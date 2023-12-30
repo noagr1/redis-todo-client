@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    color: #333;
+}
+
+#taskForm {
+    margin-bottom: 20px;
+}
+
+#taskTitle, #taskDescription {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+#taskDescription {
+    height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+}
